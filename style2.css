@@ -1,16 +1,26 @@
-main{
-    margin-left:20px;
-    margin-right:20px
+*{
+    margin:0%;
+    padding:0%;
 }
 
-.row1{
+main{
+    margin-top:100px;
+}
+
+/* //////////////////////////////  Set the row for all rows   /////////////////////////////// */
+.row1{ 
     margin-top:50px;
     margin-bottom:50px
 }
 .row2{
     margin-top:50px;
+    margin:0%; 
+    margin-bottom:105px;
+}
+
+.row3{
+    margin-top:50px;
     margin-bottom:50px;
-    
 }
 
 .card-ul{
@@ -24,6 +34,15 @@ main{
 .education-card{
     box-shadow: 10px 10px 15px #000000;
 }
+#univarsety-name{
+    font-weight: 600;
+    font-size:medium;
+}
+
+#gpa{
+    font-weight: 600;
+    font-size:medium;
+}
 
 .education-card:hover{
     box-shadow: 10px 10px 15px #ffc107;
@@ -34,14 +53,7 @@ main{
     box-shadow: 5px 5px 15px #ffc107;
 }
 
-#scrolling-p{
-    height:200px;
-    overflow: scroll;
-    scrollbar-color: #ffc107 rgb(0, 0, 0);
-}
-
 .collapse{
-    
     
     text-align: center;
 }

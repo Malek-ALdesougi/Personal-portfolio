@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malek's portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style2.css">
 </head>
@@ -15,7 +16,7 @@
 
     <header>
 
-        <!-- This is the navigation bar  -->
+        <!------------------------------------- This is the navigation bar  -------------------------------------->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
 
@@ -27,16 +28,20 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a style="font-weight: 900;" class="nav-link active text-warning" aria-current="page" href="./index.html">HOME</a>
+                            <a style="font-weight: 900;" class="nav-link active text-warning" aria-current="page"
+                                href="./index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-warning" aria-current="page" href="https://github.com/Malek-ALdesougi">GitHub</a>
+                            <a class="nav-link active text-warning" aria-current="page"
+                                href="https://github.com/Malek-ALdesougi">GitHub</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-warning" aria-current="page" href="https://www.linkedin.com/in/malek-al-desougi-23673a242/">Linkedin</a>
+                            <a class="nav-link active text-warning" aria-current="page"
+                                href="https://www.linkedin.com/in/malek-al-desougi-23673a242/">Linkedin</a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link active text-warning" aria-current="page" href="https://web.facebook.com/prince.malek.18/">Facebook</a>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page"
+                                href="https://web.facebook.com/prince.malek.18/">Facebook</a>
                         </li>
                     </ul>
 
@@ -54,194 +59,143 @@
 
     <main>
 
-        <!-- This row is for eduction and languages -->
+        <!-------------------------- This row is for eduction and languages ------------------------->
 
-        <div class="row row1">
+        <div class="row row1" style="margin:0%; margin-bottom: 50px;">
 
-            <div class="col-sm-6">
-                <div class="card education-card ">
-                    <div class="card-body">
-                        <h3 class="card-title">EDUCATION</h3>
-                        <ul class="card-ul">
+            <div class="col-md-2 orange-col"></div>
+            <div class="col-md-4">
+                <h3 class="card-title">EDUCATION</h3>
+                <ul class="card-ul" style="margin-left:-30px;">
+                    <li id="univarsety-name">AL Al-bayt University</li>
+                    <li>Bachelor’s degree in Accounting Infomration Systems</li>
+                    <li>2018-2021</li>
+                    <li><span id="gpa">GPA:</span> Excellent</li>
+                </ul>
+            </div>
 
-                            <li>AL Al-bayt University</li>
-                            <li>Bachelor’s degree in Accounting Infomration Systems</li>
-                            <li>2018-2021</li>
-                            <li>GPA: Excellent</li>
-                        </ul>
+            <div class="col-md-1"></div>
 
-                    </div>
+
+
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h3 class="card-title">EXPERIENCE</h3>
+                    <p class="card-text"> April/2021 - March/2021 :</br> Training at AL Al-Bayt University in the
+                        financial
+                        depatment.</br>
+                        </br>
+                        July/2022 - present : </br>Training at Orange coding acadimy - mobile and web development.</p>
                 </div>
             </div>
 
-            <div class="col-sm-6">
-                <div class="card education-card">
-                    <div class="card-body">
-                        <h3 class="card-title">Languages</h3>
-                        <ul class="card-ul">
-
-                            <li><span class="language">Arabic : </span> Mother language</li>
-                            <li><span class="language">English : </span> Very good writing, speaking, and reading</li>
-                            <li><span class="language">Russian : </span>Beginner</li></br>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
+            <div class="col-md-1"></div>
         </div>
 
-
-        <!-- This row is for experience and works -->
+        <!---------------------------------- This row is for experience ------------------------------------>
 
         <div class="row row2">
 
-            <div class="col-sm-6 gap-2">
-                <div class="card education-card" style="height:354px">
+            <div class="col-md-2"></div>
+
+
+            <div class="col-md-4">
+                <h3 class="card-title">LANGUAGES</h3>
+                <ul class="card-ul" style="margin-left:-30px;">
+                    <li><span class="language">Arabic : </span> Mother language</li>
+                    <li><span class="language">English : </span> Very good writing, speaking, and reading</li>
+                    <li><span class="language">Russian : </span>Beginner</li></br>
+                </ul>
+            </div>
+
+            <div class="col-md-1"></div>
+
+
+            <div class="col-md-4">
+                <div class="card-body">
+                    <h3 class="card-title">Technical Skills</h3>
+                    <p id="scrolling-p" class="card-text">
+
+                        Java, HTML, CSS, JS, Visual basic, c++,</br> bootstrap, React
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+
+        <!----------------------------- This row is for Projects ------------------------------>
+
+        <div class="row row4" style="margin:0%; margin-bottom: 50px;">
+
+            <h1 class="card-title" style="margin-bottom:10px; text-align: center; margin-top:50px">PROJECTS</h1>
+            <div class="col-md-4">
+                
+                <div class="card work-cards">
+                    <img src="./pojects/persona-portfolio project.png" style="width:auto; height:400px; text-align: center;" alt="">
                     <div class="card-body">
-                        <h3 class="card-title">Experience</h3>
-                        <p class="card-text"> 2020 - 2022 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Dicta, reiciendis hic vitae, quisquam molestiae imit</p>
+                        <h5 class="card-title">portfolio Website</h5>
+                        <p class="card-text">My personal portfolio made by using bootstrap, css3
+                            to done the project perfectly.</p>
+                        <a href="https://malek-aldesougi.github.io/Personal-portfolio/" class="btn btn-warning">View
+                            Porject</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-6">
-                <div class="card education-card">
+            <div class="col-md-4">
+                <div class="card work-cards">
+                    <img src="./pojects/Flex&Grid samepage.png" style="width:auto; height:400px; text-align: center;" alt="">
                     <div class="card-body">
-                        <h3 class="card-title">Works</h3>
+                        <h5 class="card-title">Flex & Grid wibsite</h5>
+                        <p class="card-text">It's a web site made by using only html, css, and grid display the first
+                            time use it in project.</p>
+                        <a href="https://malek-aldesougi.github.io/website/practice" class="btn btn-warning">View Project</a>
+                    </div>
+                </div>
+            </div>
 
-                        <!-- THE START OF WORKS CARDS :) -->
-
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="card work-cards">
-                                    <div class="card-body">
-                                        <h5 class="card-title">portfolio Website</h5>
-                                        <p class="card-text">My personal portfolio made using bootstrap and little css
-                                            to done the project perfectly.</p>
-                                        <a href="#" class="btn btn-dark">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="card work-cards">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Lorem ipsum dolor sit.</h5>
-                                        <p class="card-text">amet consectetur adipisicing elit. Qui, non ratione
-                                            corrupti.</p>
-                                        <a href="#" class="btn btn-dark">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="card work-cards">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Lorem ipsum dolor sit.</h5>
-                                        <p class="card-text">amet consectetur adipisicing elit. Qui, non ratione
-                                            corrupti</p>
-                                        <a href="#" class="btn btn-dark">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="card  work-cards">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Lorem ipsum dolor sit.</h5>
-                                        <p class="card-text">amet consectetur adipisicing elit. Qui, non ratione
-                                            corrupti.</p>
-                                        <a href="#" class="btn btn-dark">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- THE END OF WORKS CARDS -->
-
+            <div class="col-md-4">
+                <div class="card work-cards">
+                    <img src="./pojects/wireFrame & Mocup project.png" style="width:auto; height:400px; text-align: center;" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">wireframe and mockup Porject</i></h5>
+                        <p class="card-text">Job portfolio website including the mockup with colors and real content</p>
+                        <a href="https://www.figma.com/file/NLZRgcDIo63kK1Q3PGg5Ur/OnlineJob-website?node-id=0%3A1"
+                            class="btn btn-warning">View Porject</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!-- This row is for skills and hobbies -->
-
-        <div class="row">
-
-            <div class="col-sm-6 gap-2">
-                <div class="card education-card">
-                    <div class="card-body">
-                        <h3 class="card-title">Skills</h3>
-                        <p id="scrolling-p" class="card-text">
-
-                            HTML, CSS, JS, bootstrap. </br>
-                            Self motivated person</br>
-                            Excellent communication skills </br>
-                            Ability to quick learning </br>
-                            Good ability of problem solving </br>
-                            working under pressure for long time duration </br>
-                            Working in group as well as individual to achive goals </br>
-                            Good ability of problem solving </br>
-
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="card education-card" style="height: 265px;">
-                    <div class="card-body">
-                        <h3 class="card-title">Hobbies</h3>
-                        <ul class="card-text">
-                            <li>Playing Football</li>
-                            <li>Calm, Relax and Meditation</li>
-                            <li>Helping others</li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </main>
 
-    <!-- This is the footer section -->
 
-    <footer class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-top: 20px;">
+    <!-------------------------------------- This is the footer section ------------------------------------->
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-black" style="margin-top: 20px;">
         <div class="container">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler text-warning" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span> </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li  class="nav-item">
-                        <a style="font-weight: 900;" class="nav-link active text-warning" aria-current="page" href="./index.html">BACK  HOME</a>
+                    <li class="nav-item">
+                        <a style="font-weight: 900;" class="nav-link active text-warning" aria-current="page"
+                            href="./index.html">BACK HOME</a>
                     </li>
-                    
-
-                
             </div>
         </div>
         </br>
-
-
     </footer>
 
-
-    <div style="text-align: center;">
-        <p style="font-size:small"><i class="bi bi-c-circle-fill"></i>Copyrights Orange.co, All rights
-            reserved </br>Made by Malek AL-Desougi</p>
+    <div id="copy-right" style="text-align: center; background-color: black;">
+        <p style="font-size:small; color:white"><i class="bi bi-c-circle-fill text-warning"></i>Copyrights
+            Orange.co, All rights reserved </br>Made by Malek AL-Desougi</i></i></p>
     </div>
-
-
-
-
-
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
