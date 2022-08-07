@@ -2,5 +2,5 @@
   https://malek-aldesougi.github.io/Personal-portfolio/
   
   
-![new wirefram](https://user-images.githubusercontent.com/108900593/182471926-694626ed-6b8d-41c1-a680-55e188e7be60.png)
-![new mockup](https://user-images.githubusercontent.com/108900593/182471946-0589ee31-b8e1-4e7c-b60a-6e3d6345fa7c.png)
+![wireframe final edit](https://user-images.githubusercontent.com/108900593/183289401-e2dab0b2-0c77-477e-b643-8430d859b5b8.png)
+![mockup final edit](https://user-images.githubusercontent.com/108900593/183289402-044f7e30-9e0a-4309-94e0-82c6199cbb76.png)
