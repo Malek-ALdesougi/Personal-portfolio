@@ -2,12 +2,17 @@
   margin: 0; 
   padding: 0;
   box-sizing:border-box; 
-  font-family:'Lucida Sans',;
+  font-family: Verdana, sans-serif;
   
 }
 
 body{
   max-width: 100%;
+}
+
+::selection{
+  background-color: #000000;
+  color: #FFB21B;
 }
 
 .blink {
@@ -20,15 +25,26 @@ body{
       opacity: 0;
   }
 }
+
+.discover-btn{
+  margin-left:15%;
+}
+
+
+@media screen and (max-width:575px){
+  .discover-btn{
+    position:relative;
+    right:10%;
+  }
+}
 /*////////////////////Cant hide the icon /////////'//////////*/
 
-@media screen and (max-width:991px) {
+/* @media screen and (max-width:991px) {
   .blink{
 
-  
 
   }
-  }
+  } */
 
 #h3-about{
   margin-top: 10px;
@@ -72,8 +88,15 @@ align-items: center;
 }
 
 #about-img{
-height:312px; 
+height:335px; 
 width:300px;
+}
+
+@media print {
+  #about-img{
+    display: none;
+  }
+    
 }
 
 @media screen and (min-width:250px) and (max-width:610px){
@@ -134,7 +157,7 @@ padding:0%;
   
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
   #about-img{
     width:600px;
     height:100%;
@@ -146,12 +169,11 @@ padding:0%;
 
 
 /*///////////////////// This is here image text//////////////////// */
-.hero-name{
+/* .hero-name{
+  font-size:small;
   font-weight: bolder;
-  font-family:'Lucida Sans Unicode';
-  color:black;
-  
-}
+  font-family:'Lucida Sans Unicode'; 
+} */
 .d-flex{
   justify-content: center;
   align-items: center;
@@ -161,33 +183,46 @@ padding:0%;
 .hero-description{
    font-weight:900;
    font-family:'Lucida Sans Unicode';
-   color:black;
-   font-size: larger;
+   color:rgb(255, 255, 255);
+   font-size: x-large;
 }
 
-@media screen and (max-width:382px) {
+@media screen and (max-width:400px) {
   .hero-name {
-    font-weight:100;
+    font-weight:300;
     font-family:'Lucida Sans Unicode';
-    color:rgb(0, 0, 0);
-    font-size: x-small;
+    color:rgb(255, 255, 255);
+    font-size: small;
   }
 }
-@media screen and (max-width:382px) {
-  .hero-description {
-    font-weight:100;
-    font-family:'Lucida Sans Unicode';
-    color:rgb(0, 0, 0);
-    font-size: x-small;
-  }
-}
-
-@media screen and (min-width:382px) {
+@media screen and (max-width:400px) {
   .hero-description {
     font-weight:300;
     font-family:'Lucida Sans Unicode';
     color:rgb(0, 0, 0);
-    font-size: x-small;
+    font-size: xx-small;
+    text-align: center;
+  }
+}
+
+
+
+@media screen and (min-width:400px){
+  .hero-name{
+    font-weight: bolder;
+    font-family:'Lucida Sans Unicode';
+    color:rgb(255, 255, 255);
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width:400px) {
+  .hero-description {
+    font-weight:500;
+    font-family:'Lucida Sans Unicode';
+    color:rgb(255, 255, 255);
+    font-size: small;
+    text-align: center;
   }
 }
 
@@ -195,8 +230,8 @@ padding:0%;
   .hero-name {
     font-weight: bolder;
     font-family:'Lucida Sans Unicode';
-    color:black;
-    font-size: xx-large;
+    color:rgb(255, 255, 255);
+    font-size: larger;
 }
 }
 
@@ -204,25 +239,68 @@ padding:0%;
   .hero-description {
     font-weight:900;
     font-family:'Lucida Sans Unicode';
-    color:black;
-    font-size: larger;
+    color:rgb(255, 255, 255);
+    font-size: small;
   }
+  }
+
+  @media screen and (min-width:880px){
+    .hero-name{
+      font-size:xx-large;
+      font-weight: bolder;
+      font-family:'Lucida Sans Unicode';
+      color:rgb(255, 255, 255);
+      
+    }
+
+    .hero-description{
+      font-weight:900;
+      font-family:'Lucida Sans Unicode';
+      color:black;
+      font-size: x-large;
+      
+   }
+
   }
 
   #copy-right{
-    text-align: center;
+     text-align: center;
+     color:white;
      background-color: black;
+     font-size:small;
+     padding:10px;
   }
 
-  .material-symbols-outlined blink{
-    color:orange;
+  .left-arrow-nav{
     margin-left:20px;
   }
 
+  .up-arrow{
+    color:#FFB21B;
+    font-size:50px !important;
+    position:relative;
+    bottom:5%;
+    left:85%;
+  }
 
+  @media screen and (max-width:520px){
+    .up-arrow{
+      left:70%;
+      font-size:40px !important;
+    }
+  }
 
+  .back-top{
+    font-size:medium;
+    text-align: center;
+    display: block;
+  }
 
+  #back-top-anchor{
+    text-align:center;
+  }
 
+  
 
 /*////////////////////////////////////////////////////// This is hero name animation //////////////////////////////////////////////////////// */
 /* .container {
